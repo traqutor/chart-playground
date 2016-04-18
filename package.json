@@ -1,0 +1,35 @@
+{
+  "name": "chart-playground",
+  "version": "1.0.0",
+  "description": "How angularjs svg d3 chart directive works?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traqutor/chart-playground.git"
+  },
+  "keywords": [
+    "svg",
+    "charts",
+    "test",
+    "angularjs",
+    "directive"
+  ],
+  "author": "Mariusz Augustyniak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/traqutor/chart-playground/issues"
+  },
+  "homepage": "https://github.com/traqutor/chart-playground#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.3"
+  }
+}
