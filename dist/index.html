@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Charts Test App</title>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <h1>Where charts are?</h1>
+    <div ng-controller="MainController as vm">
+        <h1>{{ vm.message }}</h1>
+    </div>
 </body>
 </html>
